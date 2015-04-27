@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+    >
+
+     <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="接收" />
+    <EditText
+        android:id= "@+id/receive"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+         android:textColor="#0000ff"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_all_coner"
+        android:text="@string/hello_world" />
+     <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+       
+        android:text="发送" />
+    
+      <EditText
+        android:id= "@+id/send"        
+        android:layout_marginTop="10dp"
+        android:textColor="#0000ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_all_coner"
+        android:text="@string/hello_world" />
+
+</LinearLayout>

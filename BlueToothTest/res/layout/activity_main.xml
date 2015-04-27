@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="发送的请求数据:"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <EditText
+         android:id="@+id/send_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_all_coner"
+       
+        android:maxLines="4"
+        android:scrollbars="vertical"
+        android:text="发送的请求数据:"
+        android:textColor="#0000ff" />
+
+ 
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="接收到数据"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+  
+
+    <EditText
+        android:id="@+id/receive_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_all_coner"
+        android:gravity="center_vertical"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        android:text="会在这里显示接收数据"
+        android:textColor="#0000FF"
+        android:textSize="15sp" />
+    
+      <EditText
+        android:id="@+id/state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="3"
+        android:verticalScrollbarPosition="right"
+        android:gravity="center_vertical"
+        android:scrollbars="vertical" 
+      
+        android:text="会在这里显示工作状态"
+        android:textColor="#0000FF"
+        android:textSize="15sp" />
+    
+     <Button
+        android:id="@+id/send_get_door_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style_green"
+        android:text="请求门禁识别" />
+
+    <Button
+        android:id="@+id/send_open_door"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_style_green"
+        android:text="请求打开门禁" />
+    
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_style_green"
+        android:text="刷新" />
+
+</LinearLayout>
